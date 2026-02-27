@@ -1,5 +1,8 @@
+'use client';
+
 import { Button } from "@/app/components/Átomos/button";
 import { input } from '@/app/components/Átomos/input';
+import { SearchBar } from '@/app/components/Moléculas/SearchBar';
 export default function ComunidadePage() {
 return (
 <div className="min-h-screen bg-gray-900 p-8 text-white">
@@ -8,6 +11,8 @@ return (
 <div className="flex gap-2">
 {/* Input Repetitivo sem tipagem */}
 
+{/* barra de pesquise (Molecula) */}
+<SearchBar />
 
 {/*
 <input
@@ -19,7 +24,11 @@ focus:outline-none focus:ring-2 focus:ring-blue-500"
 */}
 
 
+{/* botao (atomo)
 <Button variant='Buscar'>Buscar</Button>
+*/}
+
+
 {/*
 <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6
 rounded-lg transition-all">

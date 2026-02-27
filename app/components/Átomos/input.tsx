@@ -24,7 +24,7 @@ export const input = ({
   return (
     <input
       className={cn(
-        'inline-flex items-center justify-center rounded-lg font-medium transition-colors gap-2',
+        'bg-gray-800 border border-gray-700 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500',
         types[type],
         placeholders[placeholder],
         className
